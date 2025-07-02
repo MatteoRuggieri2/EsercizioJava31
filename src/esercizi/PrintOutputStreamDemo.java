@@ -7,8 +7,7 @@ import java.io.PrintStream;
 public class PrintOutputStreamDemo {
 
 	public static void main(String[] args) {
-		PrintOutputStreamDemo posd = new PrintOutputStreamDemo();
-		posd.run();
+		new PrintOutputStreamDemo().run();
 	}
 
 	private void run() {
